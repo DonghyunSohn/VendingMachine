@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#bdbdbd"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="434dp"
+            android:layout_weight="1.00"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.33">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView01"
+                        android:src="@drawable/coke"
+                        android:layout_above="@+id/button001"
+                        android:layout_centerHorizontal="true"
+                        />
+
+                    <TextView
+                        android:background="#bdbdbd"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:layout_above="@+id/button001"
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="￦ 500"/>
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="선택"
+                        android:id="@+id/button001"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView02"
+                        android:src="@drawable/coke_zero"
+                        android:layout_above="@+id/button002"
+                        android:layout_centerHorizontal="true"
+                        />
+
+                    <TextView
+                        android:background="#ffffff"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:layout_above="@+id/button002"
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="￦ 500"/>
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="선택"
+                        android:id="@+id/button002"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView03"
+                        android:src="@drawable/cider"
+                        android:layout_above="@+id/button003"
+                        android:layout_centerHorizontal="true"
+                        />
+
+                    <TextView
+                        android:background="#ffffff"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:layout_above="@+id/button003"
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="￦ 500"/>
+
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="선택"
+                        android:id="@+id/button003"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.33">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView04"
+                        android:src="@drawable/fanta_org"
+                        android:layout_above="@+id/button004"
+                        android:layout_centerHorizontal="true"
+                        />
+
+                    <TextView
+                        android:background="#ffffff"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:layout_above="@+id/button004"
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="￦ 600"/>
+
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="선택"
+                        android:id="@+id/button004"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView05"
+                        android:src="@drawable/fanta_grp"
+                        android:layout_above="@+id/button005"
+                        android:layout_centerHorizontal="true"
+                        />
+
+                    <TextView
+                        android:background="#ffffff"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:layout_above="@+id/button005"
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="￦ 600"/>
+
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="선택"
+                        android:id="@+id/button005"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView06"
+                        android:src="@drawable/fanta_pine"
+                        android:layout_above="@+id/button006"
+                        android:layout_centerHorizontal="true"
+                        />
+
+                    <TextView
+                        android:background="#ffffff"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:layout_above="@+id/button006"
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="￦ 600"/>
+
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="선택"
+                        android:id="@+id/button006"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.33">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView07"
+                        android:src="@drawable/mtdew"
+                        android:layout_above="@+id/button007"
+                        android:layout_centerHorizontal="true"
+                        />
+
+                    <TextView
+                        android:background="#ffffff"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:layout_above="@+id/button007"
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="￦ 700"/>
+
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="선택"
+                        android:id="@+id/button007"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView08"
+                        android:src="@drawable/hotsix"
+                        android:layout_above="@+id/button008"
+                        android:layout_centerHorizontal="true"
+                        />
+
+                    <TextView
+                        android:background="#ffffff"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:layout_above="@+id/button008"
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="￦ 800"/>
+
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="선택"
+                        android:id="@+id/button008"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView09"
+                        android:src="@drawable/vita"
+                        android:layout_above="@+id/button009"
+                        android:layout_centerHorizontal="true"
+                        />
+
+                    <TextView
+                        android:background="#ffffff"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:layout_above="@+id/button009"
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="￦ 500"/>
+
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="선택"
+                        android:id="@+id/button009"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="105dp"
+            android:layout_height="434dp"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.2">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@drawable/insert"/>
+            </LinearLayout>
+
+            <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:layout_gravity="center_vertical"
+                android:weightSum="1">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:background="@drawable/coin"
+                android:layout_marginLeft="12dp"
+                />
+
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.2"
+                android:weightSum="1">
+
+                <ImageButton
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/re_btn"
+                    android:layout_marginLeft="15dp"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.4"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="현재 금액"
+                    android:textColor="#ffffff"
+                    android:id="@+id/textView01"
+                    android:layout_marginTop="25dp"
+                    android:background="#000000"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="63dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/coin2" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView010"
+            android:src="@drawable/drink"
+            android:layout_centerHorizontal="true"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
